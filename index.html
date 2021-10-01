@@ -15,72 +15,135 @@
 </head>
 <body>
   <!--inicio header-->
-   <header>
-     <nav class="navbar">
-       <a href="index.html"><img class="navbarLogo" src="assets/logo.png"Logo del sitio web"></a>
-       <ul class="navbarNav">
-         <li><a href="index.html">Home</a></li>
-         <li><a href="pages/contacto.html">Contacto</a></li>
-         <li><a href="pages/galeria.html">Galería</a></li>
-         <li><a href="pages/servicios.html">Servicios</a></li>
-         <li><a href="pages/sobreMi.html">Sobre mi</a></li>
-       </ul>
-     </nav>
-   </header>
+  <header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#"><img class="logoNav" src="assets/logo.png" alt="Logo sitio"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav ml-auto">
+			    	<li class="nav-item">
+			        	<a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+			    	</li>
+			     	<li class="nav-item">
+			        	<a class="nav-link" href="pages/sobreMi.html">Sobre mi</a>
+			    	</li>
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="pages/servicios.html">Servicios</a>
+			    	</li>
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="pages/galeria.html">Galería</a>
+			    	</li>
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="pages/contacto.html">Contacto</a>
+			    	</li>
+			    </ul>
+			</div>
+		</nav>
+	</header>
    <!--fin header-->
 
    <!--inicio main-->
    <main>
-    <section class="contenedorPresentacion">
-        <div class="parrafo">
-      <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, necessitatibus nostrum! Ratione fuga quas reprehenderit, consectetur obcaecati placeat corporis minus odio dolores soluta eius corrupti itaque, earum delectus harum assumenda?</p>
-      <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quidem reiciendis facilis aliquam cumque veritatis debitis nulla reprehenderit deleniti, voluptas fuga id sapiente dicta aspernatur quod quasi? Deserunt, cupiditate eligendi.</p>
-      <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veniam culpa corrupti amet quidem esse et unde iusto? Labore vitae ratione enim laboriosam, at libero nostrum impedit inventore ab voluptas?</p>
-       </div>
-         <div class="video">
-       <video class="video"src="assets/videoHome.mp4" controls autoplay muted loop></video>
-         </div>
-      </section>
-      <section class="seccionSobreMi">
-          <h2>¿Desea conocer más sobre mi? </h2>
-          <button class="boton"><a href="pages/sobreMi.html">Sobre mi</a></button>
-      </section>
+    <!--banner de bienvenida-->
+    <div class="bannerPrincipal">
+			<h1>MILU MAKEUP</h1>
+		</div>
+		<div class="anchoContenido marginVertical">
+			<h2 class="marginVertical">Bienvenid@ a mi espacio</h2>
+			<div class="miniBio">
+				<p>Hola mi nombre es Milagros iatrino, soy maquilladora graduada de Arias Bazan, me desempeño en el maquillaje social, profesional y artístico. <br>Siempre atenta a las ultimas tendencias y las necesidades de los clientes
+				</p>
+				<a class="text-decoration-none text-reset mx-auto" href="pages/sobre-nosotros.html">
+					<button type="button" class="btn btn-dark btn-lg">Leer más...</button>
+				</a>
+			</div>
+    </div>
+    <!-- Banner de servicios con Botón-Modal -->
+		<div class="bannerServiciosHome marginVertical">
+			<h3>Ver los servicios disponibles</h3>
+			<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#staticBackdrop">Detalles de los servicios</button>
+		</div>  
 
-      <h2 class="tituloComentario">Comentarios clientes</h2>
-
-      <section class="contenedorComentario">
-          <div class="imagenComentario">
-            <img src="assets/woman1.jpg" alt="imagen de comentario 1">
-          </div>
-          <div>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, iste.
-          </div>
-          <div class="imagenComentario">
-            <img src="assets/woman2.jpg" alt="imagen de comentario 2">
-          </div>
-          <div>
-           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nobis.
-          </div>
-          <div class="imagenComentario">
-            <img src="assets/woman3.jpg" alt="imagen de comentario 3">
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, laudantium.
-          </div>
-      </section>
+    <div>
+      <h3>
+        Testimonios de Clientes
+      </h3>
+    </div>
+    <!-- Cards de Testimonios con Bootstrap -->
+		<div class="container-fluid anchoContenido marginVertical">
+			<div class="row">
+				<div class="card-deck my-5">
+					<div class="card">
+						<img src="assets/clienta1.jpg" class="card-img-top" alt="testimonio-1">
+						<div class="card-body">
+					    	<h5 class="card-title">Romina Pereira Abogada 39 años</h5>
+					    	<p class="card-text">Muy buena experiencia la que brinda MILU MAKEUP, la super recomiendo!.</p>
+					    </div>
+				  	</div>
+				  	<div class="card">
+						<img src="assets/clienta2.jpg" class="card-img-top" alt="testimonio-2">
+						<div class="card-body">
+					    	<h5 class="card-title">Agustina Ceballos 28 años Diseñadora Gráfica</h5>
+					    	<p class="card-text">Pasar por las manos de MILU MAKEUP fue la mejor experiencia del año, muy conforme con los resultados y voy a volver muy pronto!.</p>
+					    </div>
+				  	</div>
+					<div class="card">
+				    	<img src="assets/clienta3.jpg" class="card-img-top" alt="testimonio-3">
+				    	<div class="card-body">
+					      	<h5 class="card-title">Celeste garcia 31 años Arquitecta</h5>
+					      	<p class="card-text">Hermoso el acabado del maquillaje que consiguio MILU MAKEUP, me encanto su técnica para el maquillaje artístico</p>
+				    	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    <div >
+			<h3>Te muestro algunos de mis maquillajes...</h3>
+		</div>
+		<div class="galeriaHome anchoContenido marginVertical">
+			<div>
+				<img src="assets/galeria1.jpg" alt="galeria-1">
+			</div>
+			<div>
+				<img src="assets/galeria2.jpg" alt="galeria-2">
+			</div>
+			<div>
+				<img src="assets/galeria3.jpg" alt="galeria-3">
+			</div>
+		</div>
+		<div class="container d-flex">
+			<a class="text-decoration-none text-reset mx-auto my-4" href="pages/galeria.html">
+				<button type="button" class="btn btn-dark btn-lg">Ver Galería...</button>
+			</a>
+		</div>
    </main>
    <!--fin main-->
    
-  
    <!--inicio footer-->
-   <footer class="footer">
-     <div>
-     <h2>Redes Sociales</h2>
-    </div>
-    <div class="socialMedia">
-      <a href="https://www.tiktok.com/@miluiatrinomakeup?lang=es"><i class="fab fa-tiktok"></i></a>
-      <a href="https://www.instagram.com/miluiatrino.makeup/"> <i class="fab fa-instagram"></i></a>
-    </div>
+   <footer >
+    <div class="contenedorFooter anchoContenido">
+			<h3>Seguime en mis redes</h3>
+			<ul class="redesFooter">
+				<li>
+					<a href="https://www.facebook.com/MiluBeautyMakeUp" target="_blank" rel="noopener noreferrer">
+						<img src="assets/fb-logo.png" alt="logo facebook">
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/miluiatrino.makeup" target="_blank" rel="noopener noreferrer">
+						<img src="assets/ig-logo.png" alt="logo instagram">
+					</a>
+				</li>
+				<li>
+					<a href="https://www.tiktok.com/@miluiatrinomakeup?lang=es" target="_blank" rel="noopener noreferrer">
+						<img src="assets/tiktok-logo.png" alt="logo tik-tok">
+					</a>
+				</li>
+			</ul>
+			<h4>Matias iatrino 2021 © Todos los derechos reservados</h4>
+		</div>
    </footer>
    <!--fin footer-->
 
