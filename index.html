@@ -1,153 +1,224 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sitio Web sobre maquillaje, en donde encontraras maquillaje social, artístico y profesional">
-    <meta name="keywords" content="MAQUILLAJE, MAKE-UP, MAQUILLADORA, BELLEZA, MUA, MAQUILLAJE SOCIAL, MAQUILLAJE PROFESIONAL, MAQUILLAJE ARTÍSTICO">
-    <title>MILU Makeup</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oxygen&family=PT+Sans&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-</head>
-<body>
-  <!--inicio header-->
-  <header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#"><img class="logoNav" src="assets/logo.png" alt="Logo sitio"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-			    <ul class="navbar-nav ml-auto">
-			    	<li class="nav-item">
-			        	<a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-			    	</li>
-			     	<li class="nav-item">
-			        	<a class="nav-link" href="pages/sobreMi.html">Sobre mi</a>
-			    	</li>
-			    	<li class="nav-item">
-			        	<a class="nav-link" href="pages/servicios.html">Servicios</a>
-			    	</li>
-			    	<li class="nav-item">
-			        	<a class="nav-link" href="pages/galeria.html">Galería</a>
-			    	</li>
-			    	<li class="nav-item">
-			        	<a class="nav-link" href="pages/contacto.html">Contacto</a>
-			    	</li>
-			    </ul>
-			</div>
-		</nav>
-	</header>
-   <!--fin header-->
+<html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords"  content="MAQUILLAJE, MAKE-UP, MAQUILLADORA, BELLEZA, MUA, MAQUILLAJE SOCIAL, MAQUILLAJE PROFESIONAL, MAQUILLAJE ARTÍSTICO">
+        <meta name="description" content="Sitio Web sobre maquillaje, en donde encontraras maquillaje social, artístico y profesional">
 
-   <!--inicio main-->
-   <main>
-    <!--banner de bienvenida-->
-    <div class="bannerPrincipal">
-			<h1>MILU MAKEUP</h1>
-		</div>
-		<div class="anchoContenido marginVertical">
-			<h2 class="marginVertical">Bienvenid@ a mi espacio</h2>
-			<div class="miniBio">
-				<p>Hola mi nombre es Milagros iatrino, soy maquilladora graduada de Arias Bazan, me desempeño en el maquillaje social, profesional y artístico. <br>Siempre atenta a las ultimas tendencias y las necesidades de los clientes
-				</p>
-				<a class="text-decoration-none text-reset mx-auto" href="pages/sobre-nosotros.html">
-					<button type="button" class="btn btn-dark btn-lg">Leer más...</button>
-				</a>
-			</div>
-    </div>
-    <!-- Banner de servicios con Botón-Modal -->
-		<div class="bannerServiciosHome marginVertical">
-			<h3>Ver los servicios disponibles</h3>
-			<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#staticBackdrop">Detalles de los servicios</button>
-		</div>  
+        <!--favicon-->
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicono/favicon-32x32.png">
+        
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+      
+    
 
-    <div>
-      <h3>
-        Testimonios de Clientes
-      </h3>
-    </div>
-    <!-- Cards de Testimonios con Bootstrap -->
-		<div class="container-fluid anchoContenido marginVertical">
-			<div class="row">
-				<div class="card-deck my-5">
-					<div class="card">
-						<img src="assets/clienta1.jpg" class="card-img-top" alt="testimonio-1">
-						<div class="card-body">
-					    	<h5 class="card-title">Romina Pereira Abogada 39 años</h5>
-					    	<p class="card-text">Muy buena experiencia la que brinda MILU MAKEUP, la super recomiendo!.</p>
-					    </div>
-				  	</div>
-				  	<div class="card">
-						<img src="assets/clienta2.jpg" class="card-img-top" alt="testimonio-2">
-						<div class="card-body">
-					    	<h5 class="card-title">Agustina Ceballos 28 años Diseñadora Gráfica</h5>
-					    	<p class="card-text">Pasar por las manos de MILU MAKEUP fue la mejor experiencia del año, muy conforme con los resultados y voy a volver muy pronto!.</p>
-					    </div>
-				  	</div>
-					<div class="card">
-				    	<img src="assets/clienta3.jpg" class="card-img-top" alt="testimonio-3">
-				    	<div class="card-body">
-					      	<h5 class="card-title">Celeste garcia 31 años Arquitecta</h5>
-					      	<p class="card-text">Hermoso el acabado del maquillaje que consiguio MILU MAKEUP, me encanto su técnica para el maquillaje artístico</p>
-				    	</div>
-					</div>
-				</div>
-			</div>
-		</div>
-    <div >
-			<h3>Te muestro algunos de mis maquillajes...</h3>
-		</div>
-		<div class="galeriaHome anchoContenido marginVertical">
-			<div>
-				<img src="assets/galeria1.jpg" alt="galeria-1">
-			</div>
-			<div>
-				<img src="assets/galeria2.jpg" alt="galeria-2">
-			</div>
-			<div>
-				<img src="assets/galeria3.jpg" alt="galeria-3">
-			</div>
-		</div>
-		<div class="container d-flex">
-			<a class="text-decoration-none text-reset mx-auto my-4" href="pages/galeria.html">
-				<button type="button" class="btn btn-dark btn-lg">Ver Galería...</button>
-			</a>
-		</div>
-   </main>
-   <!--fin main-->
-   
-   <!--inicio footer-->
-   <footer >
-    <div class="contenedorFooter anchoContenido">
-			<h3>Seguime en mis redes</h3>
-			<ul class="redesFooter">
-				<li>
-					<a href="https://www.facebook.com/MiluBeautyMakeUp" target="_blank" rel="noopener noreferrer">
-						<img src="assets/fb-logo.png" alt="logo facebook">
-					</a>
-				</li>
-				<li>
-					<a href="https://www.instagram.com/miluiatrino.makeup" target="_blank" rel="noopener noreferrer">
-						<img src="assets/ig-logo.png" alt="logo instagram">
-					</a>
-				</li>
-				<li>
-					<a href="https://www.tiktok.com/@miluiatrinomakeup?lang=es" target="_blank" rel="noopener noreferrer">
-						<img src="assets/tiktok-logo.png" alt="logo tik-tok">
-					</a>
-				</li>
-			</ul>
-			<h4>Matias iatrino 2021 © Todos los derechos reservados</h4>
-		</div>
-   </footer>
-   <!--fin footer-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-   <script src="https://kit.fontawesome.com/57f7912638.js" crossorigin="anonymous"></script> 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-</body>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            $(document) .ready(function() {
+            $('#myModal').modal('show')
+            });
+        </script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+        <link  rel = " stylesheet " href = " https://unpkg.com/aos@next/dist/aos.css "/>
+
+        <link rel="stylesheet" href="css/estilo.css">
+
+        <title>MiluMakeup</title>
+        
+
+    </head>
+
+    <body> <!--aca comienza el body-->
+
+        <!--comienza navbar-->
+        <nav id="menu" class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav m-auto">
+                                    <li class="nav-item translate">
+                                        <a class="nav-link js-scroll-trigger" href="index.html">HOME</a>
+                                    </li>
+                                    <li class="nav-item translate">
+                                        <a class="nav-link" href="pages/sobreMi.html">SOBRE MI</a>
+                                    </li>
+                                    <li class="nav-item translate">
+                                        <a class="nav-link" href="pages/servicios.html">SERVICIOS</a>
+                                    </li>
+                                    <li class="nav-item translate">
+                                        <a class="nav-link" href="pages/galeria.html">GALERIA</a>
+                                    </li>
+                                    <li class="nav-item translate">
+                                        <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+                                    </li>
+                            </ul>
+                  </div>
+            </nav>
+    
+        <!--termina navbar-->
+	
+        <!-- comienza header-->
+        <header class="header">
+                <div class="container">
+                    <div class="header__subtitulo">BIENVINID@ A MI ESPACIO</div>
+                    <div class="header__titulo text-uppercase">MILU MAKEUP</div>
+                </div>
+        </header>
+        <!-- termina header-->
+
+        <!--comienza presentacion texto-->
+        <section class="containerIndex">
+            <p class="containerIndex__presentacion">Hola soy Milagros iatrino, maquilladora egresada de Arias Bazan, aqui vas a encontrar un espacio en donde vamos a encontrar el look perfecto para vos y brillar en la ocasión que necesites.</p>
+        </section>
+        <!--termina presentacion texto-->
+
+
+        <!-- servicios-->
+        <main class="containerIndex">
+            <ul class="containerIndex__items">
+                <li>
+                    <h2>Personalización</h2>
+                      <img  src="assets/PNG/target.png" alt="personalizacion">
+                    <p> Aqui encontraras <br> excelente servicio a medida</p>
+                </li>
+
+                 <li>
+                    <h2>Cuidadado</h2>
+                    <img  src="assets/PNG/care.png" alt="cuidado">
+                    <p>Me esfuerzo por tener los elementos a utilizar<br>con los mas estrictos protocolos de higiene y seguridad</p>
+                </li>
+
+                 <li>
+                    <h2>Libertad</h2>
+                    <img src="assets/PNG/makeup.png" alt="libertad">
+                    <p>No importa si sos hombre o mujer<br>Aqui encontraras el look perfecto para vos</p>
+                </li>
+                
+            </ul>
+        </main>
+        <!-- termina servicios-->
+
+        <!--Cards Maquillaje social,artistico y profesional-->
+
+        <section class="containerIndex">
+
+                <div class="card-group fondoCards">
+
+                        <!--Card maquillaje social-->
+                        <div class="card fondoCards__card">
+                            <img src="assets/imagenes/social.jpg" alt="maquillaje social" >
+                            <div class="card-body">
+                                <p class="portfolio-hover-content">El maquillaje social es un estilo nuevo que tiene como objetivo destacar nuestra belleza y facciones logrando un equilibrio con el look que vayamos a usar. Pero, ¿por qué es social? Se le llama social porque lo ideal es lucirlo para eventos sociales dónde nos sacaremos muchas fotos y compartiremos con mucha gente.</p>
+                                <h5 class="card-title"> 
+                                <a href="pages/servicios.html#social" type="button" class="btn btn-outline-secondary boton">MAQUILLAJE SOCIAL</a>
+                                </h5>
+                            </div>
+                        </div>
+
+                        <!--Card maquillaje artistico-->
+                        <div class="card fondoCards__card">
+                            <img src="assets/imagenes/artistico.jpg" alt="maquillaje artistico" >
+                            <div class="card-body">
+                                <p class="portfolio-hover-content">El maquillaje artístico en comparación al maquillaje social, no busca realzar los atributos ni facciones de la persona. Es una forma que hace referencia al uso de pintura o maquillaje (corporal o cosmético) en algún área del cuerpo para cambiar su aspecto.</p>
+                                <h5 class="card-title">
+                                    <a href="pages/servicios.html#artistico" type="button" class="btn btn-outline-secondary boton">MAQUILLAJE ARTISTICO</a>
+                                </h5>
+                            </div>
+                        </div>
+
+
+                        <!--Card maquillaje profesional-->
+                        <div class="card fondoCards__card">
+                            <img src="assets/imagenes/profesional.jpg" alt="maquillaje profesional">
+                            <div class="card-body">
+                                <p class="card-text tipografiaForm">Si definimos qué es el maquillaje profesional podemos decir que se trata de una técnica en donde se utilizan productos cosméticos para crear un efecto determinado en el cuerpo de una persona.Conocé nuestras opciones</p>
+                                <h5 class="card-title">
+                                    <a href="pages/servicios.html#profesional" type="button" class="btn btn-outline-secondary boton">MAQUILLAJE PROFESIONAL</a>
+                                </h5>
+                                 
+                            </div>
+                        </div>
+                </div>
+        </section>
+        <!--termina Cards social,profesional,artistico-->
+
+         <!-- footer -->
+           <footer class="footer py-4">
+                <div class="footer__contacto">SEGUIME EN LAS REDES SOCIALES!</div>
+
+                 <!-- redes sociales -->
+                    <div class="container">
+                        <div>
+                            <div class="footer__sociales">
+                                <a href="https://www.facebook.com/MiluBeautyMakeUp" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/miluiatrino.makeup" class="instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="footer__derechos">© 2021 Copyright:
+                    <a href="">Mati iatrino</a>
+                </div>
+
+            </footer>
+            <!-- termina el footer-->
+       
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script>
+                $(document).ready(function(){
+                  $(".nav-tabs a").click(function(){
+                    $(this).tab('show');
+                  });
+                });
+        </script>
+
+
+        <script>
+                $(window).scroll(function() {
+            if ($("#menu").offset().top > 180) {
+                $("#menu").addClass("bg-inverse");
+              } else {
+               $("#menu").removeClass("bg-inverse");
+              }
+            });
+        </script>
+
+        <script  src = " https://unpkg.com/aos@next/dist/aos.js " ></script>
+
+        <script> 
+             AOS . init ( ) ; 
+        </script>
+
+    </body>
 </html>

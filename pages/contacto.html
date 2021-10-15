@@ -1,119 +1,241 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-</head>
-<body>
-  <!--inicio header-->
-  <header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="../index.html"><img width="60" height="auto" src="../assets/logo.png" alt="Logo sitio"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
-				 	</li>
-					<li class="nav-item">
-						<a class="nav-link" href="../pages/sobreMi.html">Sobre mi</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="../pages/servicios.html">Servicios</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="../pages/galeria.html">Galería</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Contacto</a>
-				  	</li>
-				</ul>
-			  </div>
-		</nav>
-	</header>
-   <!--fin header-->
+<html lang="en"> <!--Inicia el HTML-->
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords"  content="MAQUILLAJE, MAKE-UP, MAQUILLADORA, BELLEZA, MUA, MAQUILLAJE SOCIAL, MAQUILLAJE PROFESIONAL, MAQUILLAJE ARTÍSTICO">
+        <meta name="description" content="Sitio Web sobre maquillaje, en donde encontraras maquillaje social, artístico y profesional">
+          <!--favicon-->
+          <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicono/favicon-32x32.png">
 
-    <!--inicio main-->
-    <main>
-      <form class="row g-3">
-        <div class="col-md-6">
-          <label for="inputNombre4" class="form-label">Nombre</label>
-          <input type="email" class="form-control" id="inputNombre4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputApellido4" class="form-label">Apellido</label>
-          <input type="password" class="form-control" id="inputApellido4">
-        </div>
-        <div class="col-12">
-          <label for="inputDireccion" class="form-label">Dirección 1</label>
-          <input type="text" class="form-control" id="inputDireccion" placeholder="San Martín 123">
-        </div>
-        <div class="col-12">
-          <label for="inputDireccion2" class="form-label">Dirección 2</label>
-          <input type="text" class="form-control" id="inputDireccion2" placeholder="Apartamento, estudio o piso">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">Ciudad</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">Provincia</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Codigo Postal</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
-      </form>
-    </main>
-    <!--Fin main-->
+         <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        
+    	<!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+            
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> <!-- formulario-->
 
-   <!--inicio footer-->
-   <footer >
-    <div class="contenedorFooter anchoContenido">
-			<h3>Seguime en mis redes</h3>
-			<ul class="redesFooter">
-				<li>
-					<a href="https://www.facebook.com/MiluBeautyMakeUp" target="_blank" rel="noopener noreferrer">
-						<img src="../assets/fb-logo.png" alt="logo facebook">
-					</a>
-				</li>
-				<li>
-					<a href="https://www.instagram.com/miluiatrino.makeup" target="_blank" rel="noopener noreferrer">
-						<img src="../assets/ig-logo.png" alt="logo instagram">
-					</a>
-				</li>
-				<li>
-					<a href="https://www.tiktok.com/@miluiatrinomakeup?lang=es" target="_blank" rel="noopener noreferrer">
-						<img src="../assets/tiktok-logo.png" alt="logo tik-tok">
-					</a>
-				</li>
-			</ul>
-			<h4>Matias iatrino 2021 © Todos los derechos reservados</h4>
-		</div>
-   </footer>
-<!--fin footer-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/57f7912638.js" crossorigin="anonymous"></script> 
-</body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><!-- link navbar scroll fondo negro-->
+
+        <link  rel = " stylesheet " href = " https://unpkg.com/aos@next/dist/aos.css "/>
+
+        <link rel="stylesheet" href="../css/estilo.css">
+
+        <title>CONTACTO</title>
+
+    </head> 
+
+    	
+    <body> <!--Aca inicia el body-->
+
+    	       <!--comienza navbar-->
+                <nav id="menu" class="navbar navbar-expand-lg navbar-dark fixed-top">
+                    <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav m-auto">
+                                     <li class="nav-item translate">
+                                        <a class="nav-link js-scroll-trigger" href="../index.html">HOME</a>
+                                     </li>
+                                     <li class="nav-item translate">
+                                        <a class="nav-link" href="../pages/sobreMi.html">SOBRE MI</a>
+                                     </li>
+                                     <li class="nav-item translate">
+                                        <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
+                                     </li>
+                                     <li class="nav-item translate">
+                                        <a class="nav-link" href="../pages/galeria.html">GALERIA</a>
+                                     </li>
+                                     <li class="nav-item translate">
+                                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                                     </li>
+                            </ul>
+                        </div>
+                </nav>
+
+                <!--termina navbar-->
+
+                <!-- comienza header-->
+                <header class="header__contacto__fondo headerPages">
+                    <div class="container">
+                        <div class="headerPages__subtitulo">quiero saber de vos!</div>
+                        <div class="headerPages__titulo text-uppercase">MILU MAKEUP</div>
+                    </div>
+                </header>
+
+                <!-- termina header-->
+
+
+            	<br><br> 
+
+                <!--ubicacion-->
+                
+                <div class="ubicacion" id="ubicacion">
+                   
+                    <div class="ubicacion__contenedor">
+
+                        <h1 class="section-heading titulosPrincipales text-center">dónde estoy?</h1>
+                      
+                        <div>
+                            <h2 class="ubicacion__maquilladora">ACA ME PODES ENCONTRAR</h2>
+                            <div class="ubicacion__iframe">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.03972028093!2d-64.20674088538672!3d-31.41303170323181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298830933ad09%3A0xb72fd713f4c77c4e!2sNuevocentro%20Shopping!5e0!3m2!1ses-419!2sar!4v1634252572210!5m2!1ses-419!2sar" class="iframe" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">ubicación Milumakeup
+                                </iframe>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!--termina ubicacion-->
+
+                <!--comienza texto + formulario-->
+                <main id="contacto">
+
+                    <div data-aos = "slide-up">
+                        <p>Si tenés alguna consulta, no dudes en escribirme.</p>
+                        <h1>Contactate conmigo</h1>
+                    </div>
+
+                    <!--comienza formulario-->
+                    <div class="contacto__formulario" data-aos = "slide-up">
+
+
+                        <form action="#" method="post" class="tipografia">
+                            <div class="form-row">
+
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Apellido">
+                                </div>
+
+                            </div>
+                            <br>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                            </div>
+
+                            <div class="form-group">
+                                <select class="custom-select">
+                                    <option selected>Tipo de maquillaje</option>
+                                    <option value="1">SOCIAL</option>
+                                    <option value="2">PROFESIONAL</option>
+                                    <option value="3">ARTÍSTICO</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deje su consulta aquí"></textarea>
+                            </div>
+
+                            <div class="checkbox_grupo">
+                                 <label class="checkbox_grupo__contenedor" tab-index="0" aria-label="Another Label">
+                                     <input type="checkbox">
+                                     <span class="checkbox_grupo__marcado"></span>
+                                     <span class="checkbox_grupo__label">Recibir notificaciones, descuentos y novedades</span>
+                                </label>
+                            </div>
+
+                            <button type="button" class="formulario__btn btn-primary formulario" data-toggle="modal" data-target="#exampleModal">
+                                Enviar
+                            </button>
+
+                    </div>
+                         
+
+                            <!--comienza modal mensaje una vez enviado-->
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                                    <div class="modal-dialog">
+                                        <div class="modal-content tipografia">
+
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Mensaje enviado</h5>
+                                            </div>
+
+                                            <div class="modal-body">
+                                                ¡Tu mensaje ha sido enviado!<br> Me pondre en contacto a la brevedad.
+
+                                                <button type="button" class="btn btn-secondary boton" data-dismiss="modal">Cerrar</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                            </div>
+                            <!--termina modal mensaje una vez enviado-->
+
+                        </form>
+                    </div> 
+                    <!--termina formulario-->
+
+                </main>
+                <!--temrina texto + formulario-->
+                
+                <!-- footer -->
+                <footer class="footer py-4">
+                    <div class="footer__contacto">SEGUIME EN LAS REDES SOCIALES!</div>
+
+                     <!-- redes sociales -->
+                        <div class="container">
+                            <div>
+                                <div class="footer__sociales">
+                                    <a href="https://www.facebook.com/MiluBeautyMakeUp" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/miluiatrino.makeup" class="instagram"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    <div class="footer__derechos">© 2021 Copyright:
+                        <a href="">Mati iatrino</a>
+                    </div>
+
+            </footer>
+
+            <!-- termina el footer -->
+
+
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+            
+             <!-- scripts -->
+            <script>
+                    $(window).scroll(function() {
+                if ($("#menu").offset().top > 180) {
+                    $("#menu").addClass("bg-inverse");
+                  } else {
+                   $("#menu").removeClass("bg-inverse");
+                  }
+                });
+            </script>
+
+            <script  src = " https://unpkg.com/aos@next/dist/aos.js " ></script> 
+
+            <script> 
+                AOS . init ( ) ; 
+            </script> 
+
+    </body> <!--aca termina el body-->
 </html>
